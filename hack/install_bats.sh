@@ -16,7 +16,7 @@ pushd $buildDir
 pwd
 git reset --hard ${VERSION}
 echo "Installing bats to /usr/local (requires root)"
-sudo ./install.sh /usr/local
+./install.sh /usr/local
 popd
 
 rm -rf $buildDir
